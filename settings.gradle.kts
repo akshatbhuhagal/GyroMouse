@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "GyroMouse"
+rootProject.name = "BTMouseController"
 include(":app")

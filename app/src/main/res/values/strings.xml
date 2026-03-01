@@ -1,4 +1,108 @@
 <resources>
-    <string name="app_name">GyroMouse</string>
-    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="app_name">Gyro Mouse Controller</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Gyro Mouse Controller</string>
+    <string name="start_advertising">Start Advertising</string>
+    <string name="stop_advertising">Stop Advertising</string>
+    <string name="advertising_status">Advertising as BLE mouse…</string>
+    <string name="home_empty_title">Ready to Connect</string>
+    <string name="home_empty_subtitle">Tap \"Start Advertising\" to make your phone discoverable as a Bluetooth mouse</string>
+    <string name="advertising_instruction_title">How to Connect</string>
+    <string name="advertising_instruction_step1">1. Your phone is now discoverable as \"Gyro Mouse\"</string>
+    <string name="advertising_instruction_step2">2. On your PC, go to Bluetooth Settings → Add Device</string>
+    <string name="advertising_instruction_step3">3. Select \"Gyro Mouse\" and pair — the trackpad will open automatically</string>
+    <string name="paired_devices">Paired Devices</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="paired">Paired</string>
+    <string name="connecting_status">Connecting…</string>
+    <string name="connected_status">Connected</string>
+    <string name="disconnected_status">Disconnected</string>
+
+    <!-- Bluetooth Status -->
+    <string name="bluetooth_connected">Connected</string>
+    <string name="bluetooth_disconnected">Disconnected</string>
+    <string name="bluetooth_connecting">Connecting</string>
+    <string name="bluetooth_scanning">Scanning</string>
+    <string name="bluetooth_off">Bluetooth is turned off</string>
+    <string name="bluetooth_not_supported">Bluetooth is not supported on this device</string>
+    <string name="bluetooth_enable_prompt">Please enable Bluetooth to use this app</string>
+
+    <!-- Pairing Screen -->
+    <string name="pairing_title">Pairing</string>
+    <string name="pairing_instruction">On your PC, go to Bluetooth settings and look for \'Gyro Mouse Controller\'</string>
+    <string name="pairing_in_progress">Pairing in progress…</string>
+    <string name="pairing_cancel">Cancel Pairing</string>
+    <string name="pairing_success">Successfully paired!</string>
+    <string name="pairing_failed">Pairing failed. Please try again.</string>
+
+    <!-- Trackpad Screen -->
+    <string name="trackpad_title">Trackpad</string>
+    <string name="trackpad_connected_to">Connected to %1$s</string>
+    <string name="trackpad_left_click">Left Click</string>
+    <string name="trackpad_right_click">Right Click</string>
+    <string name="trackpad_scroll_hint">Scroll Zone</string>
+    <string name="trackpad_keyboard">Keyboard</string>
+    <string name="trackpad_gesture_hint_title">Gesture Guide</string>
+    <string name="trackpad_gesture_move">Slide one finger to move cursor</string>
+    <string name="trackpad_gesture_left_click">Tap once for left click</string>
+    <string name="trackpad_gesture_right_click">Tap with two fingers for right click</string>
+    <string name="trackpad_gesture_double_click">Double tap for double click</string>
+    <string name="trackpad_gesture_scroll">Slide two fingers to scroll</string>
+    <string name="trackpad_gesture_drag">Long press and drag to click-drag</string>
+    <string name="trackpad_gesture_middle_click">Tap with three fingers for middle click</string>
+    <string name="trackpad_gesture_dismiss">Got it</string>
+    <string name="keyboard_stub_message">Keyboard input is a planned future feature</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_sensitivity">Sensitivity</string>
+    <string name="settings_sensitivity_value">%.1fx</string>
+    <string name="settings_scroll_speed">Scroll Speed</string>
+    <string name="settings_scroll_speed_value">%.1fx</string>
+    <string name="settings_natural_scroll">Natural Scrolling</string>
+    <string name="settings_natural_scroll_desc">Invert scroll direction (like macOS)</string>
+    <string name="settings_tap_to_click">Tap to Click</string>
+    <string name="settings_tap_to_click_desc">Tap the trackpad to click</string>
+    <string name="settings_gesture_hints">Show Gesture Hints</string>
+    <string name="settings_gesture_hints_desc">Show gesture guide on first use</string>
+    <string name="settings_keep_screen_awake">Keep Screen Awake</string>
+    <string name="settings_keep_screen_awake_desc">Prevent screen from sleeping while trackpad is active</string>
+    <string name="settings_pointer_acceleration">Pointer Acceleration</string>
+    <string name="settings_pointer_acceleration_desc">Accelerate pointer for fast movements</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_github">GitHub Repository</string>
+    <string name="settings_mouse_section">Mouse</string>
+    <string name="settings_scroll_section">Scrolling</string>
+    <string name="settings_gestures_section">Gestures</string>
+    <string name="settings_display_section">Display</string>
+
+    <!-- Permissions -->
+    <string name="permission_title">Permissions Required</string>
+    <string name="permission_bluetooth_rationale">Gyro Mouse Controller needs Bluetooth permissions to connect to your PC and act as a mouse.</string>
+    <string name="permission_location_rationale">Location permission is needed to scan for nearby Bluetooth devices (Android 11 and below).</string>
+    <string name="permission_grant_button">Grant Permissions</string>
+    <string name="permission_denied_message">Permissions were denied. Please grant them in Settings to use the app.</string>
+    <string name="permission_open_settings">Open Settings</string>
+    <string name="permission_retry">Retry</string>
+
+    <!-- Foreground Service Notification -->
+    <string name="notification_channel_id">bt_mouse_service</string>
+    <string name="notification_channel_name">Gyro Mouse Connection</string>
+    <string name="notification_channel_description">Shows when Gyro Mouse Controller is connected to a device</string>
+    <string name="notification_title">Gyro Mouse Active</string>
+    <string name="notification_text">Connected to %1$s</string>
+    <string name="notification_disconnect_action">Disconnect</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_bluetooth_unavailable">Bluetooth is not available on this device</string>
+    <string name="error_hid_registration_failed">Failed to register as HID device</string>
+    <string name="error_connection_failed">Failed to connect to device</string>
+    <string name="error_connection_lost">Connection lost. Tap to reconnect.</string>
+    <string name="error_retry">Retry</string>
+    <string name="device_not_supported_title">Device Not Supported</string>
+    <string name="device_not_supported_message">This device does not have Bluetooth hardware required for Gyro Mouse Controller.</string>
 </resources>

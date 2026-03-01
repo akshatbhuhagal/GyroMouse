@@ -1,0 +1,77 @@
+> Task :app:clean
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugResValues
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:checkDebugAarMetadata
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:mergeLibDexDebug
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+> Task :app:kspDebugKotlin
+> Task :app:mergeExtDexDebug
+
+> Task :app:compileDebugKotlin
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:125:40 'getter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:136:36 'getter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:155:28 'setter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:169:28 'setter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:280:28 'setter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:281:20 'notifyCharacteristicChanged(BluetoothDevice!, BluetoothGattCharacteristic!, Boolean): Boolean' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:359:17 'setter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:368:19 'setter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:377:22 'setter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:399:14 'setter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:407:19 'setter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:410:21 'setter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:433:26 'setter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:443:15 'setter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:462:22 'setter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/data/bluetooth/BleHidManager.kt:468:14 'setter for value: ByteArray!' is deprecated. Deprecated in Java
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/presentation/screens/home/HomeScreen.kt:90:5 Parameter 'onNavigateToPairing' is never used
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/presentation/screens/home/HomeScreen.kt:92:5 Parameter 'onNavigateToTrackpad' is never used
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/presentation/screens/home/HomeScreen.kt:330:45 'BluetoothSearching: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.BluetoothSearching
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/presentation/screens/home/HomeScreen.kt:557:41 'BluetoothSearching: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.BluetoothSearching
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/presentation/screens/pairing/PairingScreen.kt:82:45 'BluetoothSearching: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.BluetoothSearching
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/presentation/screens/trackpad/TrackpadCanvas.kt:134:37 Variable 'duration' is never used
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/presentation/screens/trackpad/TrackpadScreen.kt:78:5 Parameter 'onDisconnected' is never used
+w: file:///C:/Users/Akshat/StudioProjects/GyroMouse/app/src/main/java/com/axat/gyromouse/presentation/screens/trackpad/TrackpadScreen.kt:82:9 Variable 'settings' is never used
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:hiltAggregateDepsDebug
+> Task :app:hiltJavaCompileDebug
+> Task :app:processDebugJavaRes
+> Task :app:transformDebugClassesWithAsm
+> Task :app:mergeDebugJavaResource
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 31s
+39 actionable tasks: 39 executed
